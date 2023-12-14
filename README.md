@@ -1,9 +1,12 @@
 # RL_vcontrol
 
-This is a course project of 2023 fall course CUHK IERG6130.
+This is a course project of 2023 fall CUHK IERG6130. 
 
+In this project, we focus on daily voltage control with reinforcement learning. We first design a gym-like environment for voltage control. Then we utilize reinforcement learning method to solve the daily voltage control problem.
 # Preparation
-This project focuses on daily voltage control with reinforcement learning. Please see the [reference](https://github.com/siemens/powergym) of this project, also see the [toolkit](https://stable-baselines3.readthedocs.io/en/master/) to prepare this project.
+ Please see the [reference](https://github.com/siemens/powergym) of this project, also see the [toolkit](https://stable-baselines3.readthedocs.io/en/master/) to prepare this project.
+
+
 
 # Simulation Result
 In this project, we use both [PPO](https://arxiv.org/abs/1707.06347) and A2C to learn near-optimal control laws. 
